@@ -1,0 +1,13 @@
+# still not sure if all apis calls are working correctly
+
+
+# abuseipdb api key
+api_key:  "api_key_here_for_abuseipdb" 
+## File to parse
+### Did a quick check with sudo tcpdump -i any -nnv | tee example.txt
+file: "example.txt"
+## Dir to parse
+## did not test yet [todo]
+dir_path: ""
+#check reputation, optional 
+check_rep: True
