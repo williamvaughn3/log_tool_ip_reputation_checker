@@ -140,7 +140,7 @@ def main():
             if check_valid(ip):
                 api == "sans"
                 results = sans_checker.check_ips_reputations(api, ips)
-        write_to_file(rep_output_file, results)
+        append_to_file(rep_output_file, results)
         print("SANS results written to file")
         
 if __name__ == "__main__":
